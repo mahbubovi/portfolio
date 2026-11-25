@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mahbubur Rahman Ovi — Full Stack Developer</title>
+<meta name="description" content="MERN stack developer with experience in Spring Boot, Vue 3 and Flutter. Secure REST APIs, tested and CI-backed apps.">
+<style>
+:root{--bg:#f6f8fc;--surface:#fff;--text:#14213d;--muted:#4b5a7a;--line:#d9e0ee;--accent:#2457d6;--accent-t:#fff;--chip:#e8eefc;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1228;--surface:#101b3a;--text:#e6ecfa;--muted:#9fb0d3;--line:#1f2f5c;--accent:#6ea0ff;--accent-t:#0a1228;--chip:#172755;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1228;--surface:#101b3a;--text:#e6ecfa;--muted:#9fb0d3;--line:#1f2f5c;--accent:#6ea0ff;--accent-t:#0a1228;--chip:#172755;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;gap:18px;height:56px;overflow-x:auto}
+nav .brand{font-weight:700;color:var(--text);margin-right:auto;white-space:nowrap}
+nav a{color:var(--muted);font-size:.92rem;white-space:nowrap}
+button{font:inherit;background:var(--chip);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:4px 10px;cursor:pointer}
+section{padding:56px 0 8px}
+h2{font-size:1.5rem;margin:0 0 20px;display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.hero{padding:72px 0 24px}
+.hero small{color:var(--accent);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.hero h1{font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.1;margin:10px 0 14px}
+.hero p{color:var(--muted);max-width:640px;font-size:1.08rem}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{display:inline-block;padding:10px 18px;border-radius:10px;border:1px solid var(--accent);font-weight:600}
+.btn.p{background:var(--accent);color:var(--accent-t)}.btn:hover{text-decoration:none;opacity:.88}
+.grid{display:grid;gap:16px}
+.skills{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{margin:0 0 4px;font-size:1.1rem}
+.card .sub{color:var(--muted);font-size:.9rem;margin:0 0 10px}
+.card ul{margin:0 0 12px;padding-left:18px;color:var(--muted);font-size:.95rem}
+.card li{margin:4px 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.chips li{background:var(--chip);border-radius:999px;padding:2px 10px;font-size:.82rem;color:var(--text);margin:0}
+.links{display:flex;gap:14px;margin-top:14px;font-weight:600;font-size:.95rem}
+.proj{display:grid;gap:18px}
+footer{margin-top:56px;border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#top">Ovi</a>
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+<button id="theme" type="button" aria-label="Toggle theme">Theme</button>
+</nav></div></header>
+
+<main class="wrap" id="top">
+<div class="hero">
+<small>MERN Stack Developer · Full Stack Developer</small>
+<h1>Mahbubur Rahman Ovi</h1>
+<p>I build secure, tested and responsive full stack apps with the MERN stack, and I also work with Spring Boot, Vue 3 and Flutter. Based in Dhaka, Bangladesh.</p>
+<div class="cta">
+<a class="btn p" href="#projects">View projects</a>
+<a class="btn" href="mailto:mahbuburovi1@gmail.com">Email me</a>
+<a class="btn" href="https://github.com/mahbubovi" target="_blank" rel="noopener">GitHub</a>
+</div>
+</div>
+
+<section id="about">
+<h2>About</h2>
+<p>Full Stack Developer specializing in the MERN stack, with additional experience in Spring Boot, Vue 3 and Flutter. I design secure REST APIs, token-based authentication and both relational and document databases, and I ship tested, CI-backed applications to production. I care about clean code, security-first design and responsive user interfaces.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid skills">
+<div class="card"><h3>Languages</h3><ul class="chips"><li>JavaScript</li><li>Java</li><li>Dart</li><li>SQL</li></ul></div>
+<div class="card"><h3>Frontend</h3><ul class="chips"><li>HTML</li><li>CSS</li><li>React.js</li><li>Vue 3</li><li>Tailwind CSS</li><li>Flutter (Web)</li><li>Vite</li><li>Pinia</li><li>Redux Toolkit</li><li>React Router</li></ul></div>
+<div class="card"><h3>Backend</h3><ul class="chips"><li>Node.js</li><li>Express.js</li><li>Spring Boot</li><li>Spring Data JPA</li><li>REST APIs</li></ul></div>
+<div class="card"><h3>Databases</h3><ul class="chips"><li>MongoDB (Mongoose)</li><li>MySQL</li></ul></div>
+<div class="card"><h3>Security</h3><ul class="chips"><li>JWT</li><li>bcrypt</li><li>httpOnly cookies</li><li>Helmet (CSP)</li><li>Rate limiting</li><li>Input validation</li></ul></div>
+<div class="card"><h3>DevOps &amp; Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>GitHub Actions (CI)</li><li>Vercel</li><li>Render</li><li>Stripe</li><li>Maven</li><li>Axios</li></ul></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="proj">
+
+<article class="card">
+<h3>Inkwell</h3><p class="sub">Full stack blog platform</p>
+<ul>
+<li>Post CRUD with a draft/publish workflow, a private dashboard, and a public feed with search, category filters, sorting and pagination.</li>
+<li>Short-lived JWT access tokens held in memory, rotating httpOnly refresh cookies with reuse detection, hashed session storage and per-device sign-out.</li>
+<li>Hardened with Helmet CSP, rate limiting and server-side validation; 9 integration tests and a GitHub Actions CI pipeline.</li>
+<li>Responsive, accessible UI with dark mode; deployed on Vercel with MongoDB Atlas.</li>
+</ul>
+<ul class="chips"><li>React 19</li><li>Node.js</li><li>Express 5</li><li>MongoDB</li><li>Tailwind CSS</li><li>JWT</li><li>GitHub Actions</li><li>Vercel</li></ul>
+<div class="links"><a href="https://inkwell-blond-phi.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a><a href="https://github.com/mahbubovi/inkwell" target="_blank" rel="noopener">Source ↗</a></div>
+</article>
+
+<article class="card">
+<h3>E-commerce Platform</h3><p class="sub">Full stack MERN store with Stripe payments</p>
+<ul>
+<li>Product search with category, price and stock filters, sorting and pagination, plus a cart, order history and an admin dashboard for products, orders and sales stats.</li>
+<li>Stripe payments with signature-verified, idempotent webhooks; unpaid orders expire through a background job that releases stock, and late payments are refunded automatically.</li>
+<li>Atomic stock reservation prevents overselling, prices are always read from the database on the server, and admin routes are protected with JWT authentication and roles.</li>
+</ul>
+<ul class="chips"><li>React 18</li><li>Redux Toolkit</li><li>Node.js</li><li>Express 5</li><li>MongoDB</li><li>Stripe</li><li>JWT</li></ul>
+<div class="links"><a href="https://github.com/mahbubovi/e-commerce" target="_blank" rel="noopener">Source ↗</a></div>
+</article>
+
+<article class="card">
+<h3>Stark Group VMS</h3><p class="sub">Full stack vehicle management system</p>
+<ul>
+<li>Spring Boot REST API to register, list, edit and delete vehicles, persisted in MySQL through Spring Data JPA.</li>
+<li>Bean validation and a global exception handler returning clean errors, including 409 conflicts on duplicate vehicle numbers.</li>
+<li>Flutter Web client with list and form screens that consumes the API.</li>
+</ul>
+<ul class="chips"><li>Java 17</li><li>Spring Boot 3</li><li>Spring Data JPA</li><li>MySQL</li><li>Flutter</li><li>Dart</li></ul>
+</article>
+
+<article class="card">
+<h3>Coffee Shop Storefront</h3><p class="sub">Frontend e-commerce app with admin dashboard</p>
+<ul>
+<li>Vue 3 storefront with product listing, category browsing and a shopping cart, consuming a REST API through Axios.</li>
+<li>Protected admin dashboard with route guards, lazy-loaded routes and centralized state in Pinia; forms validated with VeeValidate and Yup.</li>
+</ul>
+<ul class="chips"><li>Vue 3</li><li>Vite</li><li>Pinia</li><li>Vue Router</li><li>Tailwind CSS</li><li>Flowbite</li><li>Supabase Auth</li></ul>
+</article>
+
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card"><h3>B.Sc. (Eng) in Computer Science and Engineering</h3><p class="sub" style="margin:0">East West University</p></div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>I’m open to new opportunities. The quickest way to reach me is by email.</p>
+<div class="cta">
+<a class="btn p" href="mailto:mahbuburovi1@gmail.com">mahbuburovi1@gmail.com</a>
+<a class="btn" href="https://www.linkedin.com/in/mahbubur-ovi-a85b11434" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://github.com/mahbubovi" target="_blank" rel="noopener">GitHub</a>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Mahbubur Rahman Ovi · Dhaka, Bangladesh</div></footer>
+
+<script>
+(function(){
+var r=document.documentElement,b=document.getElementById('theme');
+try{var t=localStorage.getItem('theme');if(t)r.setAttribute('data-theme',t);}catch(e){}
+b.addEventListener('click',function(){
+var dark=r.getAttribute('data-theme')==='dark'||(!r.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);
+var n=dark?'light':'dark';r.setAttribute('data-theme',n);
+try{localStorage.setItem('theme',n);}catch(e){}
+});
+})();
+</script>
+</body>
+</html>
